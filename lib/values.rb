@@ -10,6 +10,6 @@ require 'pry'
 
 def get_the_values(groceries)
   not_flat = groceries.values
-  not_flat.flatten
+  flat = not_flat.flatten
   binding.pry
 end
